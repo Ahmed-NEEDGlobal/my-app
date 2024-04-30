@@ -3,9 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <h1 className="text-xs sm:text-sm md:text-base lg:text-2xl bg-purple-500 md:bg-orange-300">
-        Home
-      </h1>
+      <div className="flex flex-row space-x-4">
+        <div>01</div>
+        <div>02</div>
+        <div>03</div>
+      </div>
     </main>
   );
 }
